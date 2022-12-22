@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+.bg{
+	background-color: #365c72;
+}
+
+#card-group {
+	display: flex;
+  	flex-wrap: wrap;
+}
+
+#card-group2 {
+	display: flex;
+  	flex-wrap: wrap;
+}
+
+.item{
+	display: flex;
+	padding: 2%;
+	align-items: center;
+}
+
+.myCard{
+	height: 450px;
+	width: 350px;
+	margin: 0.5rem;
+  	overflow: hidden;
+	position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #4a7791;
+    border-radius: 0.25rem;
+}
+
+.myCard2{
+	height: 150px;
+	width: 350px;
+	margin: 0.5rem;
+  	overflow: hidden;
+	position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #4a9188;
+    border-radius: 0.25rem;
+}
+
+.card-info{
+	font-weight: bold;
+	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0.5rem 1rem 1rem;
+  	letter-spacing: 0.5px;
+	font-size: 15px;
+	color: rgb(235, 235, 235);
+}
+
+.card-info2{
+	font-weight: bold;
+	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0.5rem 1rem 1rem;
+  	letter-spacing: 0.5px;
+	font-size: 15px;
+	color: rgb(235, 235, 235);
+}
+
+.image{
+	height: 100%;
+	object-fit: cover;
+	display:inline-block;
+}
+
+.image2{
+	height: 100px;
+	object-fit: cover;
+	display:inline-block;
+}
+
+.title{
+	color: rgb(235, 235, 235);
+}
+
+.overview {
+	background-color: #fff;
+	padding: 2rem;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	max-height: 100%;
+	transform: translateY(101%);
+	transition: transform 0.5s ease;
+  }
+
+  .myCard:hover .overview {
+	transform: translateY(0);
+  }
