@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: rgb(25, 25, 25);
+}
+
+#base, #details, #form{
+	border:0px solid rgb(0, 0, 0); 
+	padding: .5em; 
+	margin-left:2%;
+	min-height:150px;
+	float: left;
+	width:40%;
+	background-color: rgb(255, 255, 255);
+	border-radius: 20px;
+}
+
+#details{
+	margin-bottom: 25px;
+}
+
+
+#root article span:hover{
+	cursor: pointer;
+	cursor: hand;
+}
+
+.btnFilter, .btnFull{
+	color: black;
+	text-decoration:none;
+	background-color:white;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+#map_canvas{
+	margin: 50px;
+	width: 90vw;
+	height: 90vh;
+	border-radius: 30px;
+}
+
+.info{
+	margin: 50px;
+}
+
+#name, #latitude, #longitude{
+	display: inline;
+}
+
+#fname, #flatitude, #flongitude{
+	border-radius: 50px;
+}
+
+#send{
+	border-radius: 15px;
+	background-color: black;
+	color: white;
+	transition: 0.35s;
+}
+
+#send:hover{
+	transform: scale(1.1);
+	transition: 0.35s;
+}
